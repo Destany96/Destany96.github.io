@@ -1,4 +1,4 @@
-.header, .footer {
+.header, .footer,.col-md-12 {
     height: 75px;
     min-height: 75px;
     max-height: 75px;
@@ -14,4 +14,10 @@
     height: 400px;
     min-height: 400px;
     max-height: 400px;
+}
+
+.col-md-{
+  height:400px;
+  min-height: 400px;
+  max-height:400px;
 }
