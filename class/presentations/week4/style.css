@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal|PT+Sans+Narrow');
 
 h1{
-  font-size: 40px;
+  font-size: 50px;
   text-align:center;
-  color: #246daa;
+  color: #ffb300;
 
 }
 
@@ -15,7 +15,8 @@ h2{
 
 h3{
   font-size: 20px;
-  color: #ffb300;
+  color:#246daa;
+  text-decoration: underline;
 }
 
 p{
@@ -23,6 +24,13 @@ p{
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+
 h1, h2, h3{
   font-family: 'Arsenal', sans-serif;
+}
+
+
+body{
+  padding: 55px;
+  
 }
