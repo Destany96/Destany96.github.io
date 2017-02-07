@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webpage</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="row">
+
+
+
+            <div class="col-md-3 randomColor first">
+
+            </div>
+
+            <div class="col-md-7 randomColor second">
+
+            </div>
+
+            <div class="col-md-1 randomColor third">
+
+            </div>
+
+            <div class="col-md-1 randomColor third">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 randomColor middle">
+              <div class="textAlignCenter">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, egestas ac consectetur ac, volutpat nec risus. Sed pharetra, diam id lobortis volutpat, turpis elit convallis elit, vel cursus augue enim eget ex. Mauris consequat sollicitudin enim, sed consectetur augue blandit et. Phasellus sagittis tellus vel nisi porttitor vulputate. Ut feugiat cursus ex, sit amet hendrerit sapien molestie a. Nullam in cursus sapien, quis viverra magna. Morbi id turpis nec lectus venenatis sollicitudin dictum non sem. Curabitur facilisis, orci at ornare aliquam, sem urna pellentesque velit, et posuere libero quam eu tortor. Fusce consequat lectus non nisl lobortis vehicula. Maecenas interdum dui sed nisl varius, et luctus augue viverra. Suspendisse hendrerit fringilla turpis nec vestibulum. Curabitur tempus eros nibh, nec venenatis ipsum viverra ac.
+
+              </div>
+
+            </div>
+
+            <div class="col-md-6 randomColor middle paddingMargin">
+              <img src="images/sunset.jpg">
+
+        </div>
+          </div>
+
+        <div class="row">
+            <div class="col-md-3 randomColor fourth">
+
+
+            </div>
+
+            <div class="col-md-3 randomColor fourth">
+                <div class="marginAuto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at elit sed nulla feugiat sollicitudin at sed eros.</div>
+
+            </div>
+
+
+        <div class="col-md-3 randomColor fourth">
+          <img src="images/colour.jpg" class="displayed">
+        </div>
+
+        <div class="col-md-3 randomColor fourth">
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * max + min);
+        }
+
+        $(document).ready(function() {
+
+            var bodyColumns = $(".randomColor");
+
+            bodyColumns.each(function() {
+
+                $(this).css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+            })
+
+            $("body").css("background-color", "rgb(" + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + "," + getRandomNumber(0, 255) + ")");
+
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>
