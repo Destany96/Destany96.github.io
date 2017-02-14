@@ -1,0 +1,35 @@
+.first {
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.second{
+      height: 75px;
+      min-height: 75px;
+      max-height: 75px;
+}
+
+.third{
+      height: 400px;
+      min-height: 400px;
+      max-height: 400px;
+}
+
+.fourth{
+      height: 50px;
+      min-height: 50px;
+      max-height: 50px;
+}
+
+.fifth{
+      height: 250px;
+      min-height: 250px;
+      max-height: 250px;
+}
+
+.footer{
+      height: 50px;
+      min-height: 50px;
+      max-height: 50px;
+}

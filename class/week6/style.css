@@ -1,0 +1,90 @@
+.first {
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.second{
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  line-height: 100px;
+
+}
+
+.secondText{
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.secondText img{
+  height: 75%;
+  display:block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.third{
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+#pic1{
+  padding-top: 12%;
+  padding-left: 35%;
+}
+
+.pic2{
+  margin-top: 10%;
+  margin-left: 12%;
+}
+
+.galleryOneRight img{
+  margin-left: 35%
+}
+
+.galleryOneRight div{
+  text-align: center;
+}
+
+
+.relativeParent{
+  position: relative;
+}
+
+.relativeParent img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.relativeParent2{
+  position: relative;
+}
+
+.relativeParent2 img{
+  position: absolute;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+}
+
+#pic2SideBySide1{
+    left: 30%;
+
+}
+
+#pic2SideBySide2{
+    left: 70%;
+
+}
