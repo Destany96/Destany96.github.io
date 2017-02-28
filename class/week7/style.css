@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+
+.first {
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.second{
+  height: 375px;
+  min-height:375px;
+  max-height: 375px;
+}
+
+.second img{
+  display: block;
+  margin: 0 auto;
+}
+
+.third{
+  height: 315px;
+  min-height:315px;
+  max-height: 315px;
+  position: relative;
+}
+
+.third iframe{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+body{
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  font-size: 50px;
+  color: #fff;
+  background-color: #000;
+}
